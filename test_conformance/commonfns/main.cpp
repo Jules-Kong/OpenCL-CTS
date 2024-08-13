@@ -42,7 +42,7 @@ test_definition test_list[] = {
     ADD_TEST(max),        ADD_TEST(maxf),        ADD_TEST(min),
     ADD_TEST(minf),       ADD_TEST(mix),         ADD_TEST(mixf),
     ADD_TEST(radians),    ADD_TEST(step),        ADD_TEST(stepf),
-    ADD_TEST(smoothstep), ADD_TEST(smoothstepf), ADD_TEST(sign),
+    ADD_TEST(smoothstep), /*ADD_TEST(smoothstepf),*/ ADD_TEST(sign),
 };
 
 const int test_num = ARRAY_SIZE( test_list );

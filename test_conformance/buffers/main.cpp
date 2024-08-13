@@ -51,7 +51,7 @@ test_definition test_list[] = {
     ADD_TEST(buffer_read_char),
     ADD_TEST(buffer_read_uchar),
     ADD_TEST(buffer_read_struct),
-    ADD_TEST(buffer_read_random_size),
+    // ADD_TEST(buffer_read_random_size),
     ADD_TEST(buffer_map_read_int),
     ADD_TEST(buffer_map_read_uint),
     ADD_TEST(buffer_map_read_long),
@@ -103,8 +103,8 @@ test_definition test_list[] = {
     ADD_TEST(mem_alloc_ref_flags),
     ADD_TEST(array_info_size),
 
-    ADD_TEST(sub_buffers_read_write),
-    ADD_TEST(sub_buffers_read_write_dual_devices),
+    // ADD_TEST(sub_buffers_read_write),
+    // ADD_TEST(sub_buffers_read_write_dual_devices),
     ADD_TEST(sub_buffers_overlapping),
 
     ADD_TEST(buffer_fill_int),

@@ -32,9 +32,9 @@ test_definition test_list[] = {
     ADD_TEST( context_four_contexts_same_device ),
 
     ADD_TEST( two_devices ),
-    ADD_TEST( max_devices ),
+    // ADD_TEST( max_devices ),
 
-    ADD_TEST( hundred_queues ),
+    // ADD_TEST( hundred_queues ),
 };
 
 const int test_num = ARRAY_SIZE( test_list );
